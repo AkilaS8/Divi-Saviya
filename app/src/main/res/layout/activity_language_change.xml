@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LanguageChange">
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="600dp"
+        android:layout_marginLeft="-75dp"
+        android:layout_marginTop="-250dp"
+        android:layout_marginRight="-75dp"
+        android:src="@drawable/lan_back" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_appbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/language"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/select_en_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Select Your Language"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/select_si_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Select Your Language"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/select_ta_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Select Your Language"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/language_spinner_change"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/spinner_back"
+        android:fontFamily="@font/poppins_light"
+        android:paddingLeft="25dp"/>
+
+    <TextView
+        android:id="@+id/language_welcome_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/language_change"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/back_btn"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="SUBMIT"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

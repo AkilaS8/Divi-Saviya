@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MyShop">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorProfile"
+        android:elevation="10dp"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-50dp"
+                android:src="@drawable/guide_man1" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/guide_man2" />
+
+            <TextView
+                android:id="@+id/myshop_txt"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Add Your own services and products"
+                android:textAlignment="center"
+                android:textColor="@color/guide_back"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabView_myProducts"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorProfile"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPrimaryDark"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/guide_back" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pageViewer_myProducts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabView_myProducts" />
+
+</RelativeLayout>

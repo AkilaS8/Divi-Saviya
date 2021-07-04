@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">දිවි සවිය</string>
+    <string name="welcome">WELCOME</string>
+    <string name="selectLanguage">Select Your Language</string>
+
+    <string name="guide1">Using this icon you can view your products and you can add new products. Also you can delete and edit your products.</string>
+    <string name="guide2">Using this icon you can watch some tutorial videos, new techniques and motivating videos that you encourage. Good luck.</string>
+    <string name="guide3">Using this icon you can search category wise what you want. Here have everything you want.</string>
+    <string name="guide_skip">SKIP</string>
+
+    <string name="log_telephone">Telephone Number</string>
+    <string name="log_password">Password</string>
+    <string name="log_forgot">Forgot Password?</string>
+    <string name="log_login">LOGIN</string>
+    <string name="log_account">Don\'t have an Account?</string>
+    <string name="log_signup">SIGN UP</string>
+
+    <string name="forgot_txt">Enter the OPT code that received for your telephone number</string>
+    <string name="forgot_btn">SUBMIT</string>
+    <string name="forgot_appbar">Forgot Password</string>
+
+    <string name="reg_name">name</string>
+    <string name="reg_name_hint">Enter Your Name</string>
+    <string name="reg_telephone">Telephone Number</string>
+    <string name="reg_telephone_hint">Enter Telephone Number</string>
+    <string name="reg_address">Address</string>
+    <string name="reg_address_hint">Enter Your Address</string>
+    <string name="reg_occupation">Occupation</string>
+    <string name="reg_occupation_hint">Who are you?</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_password_hint">Enter Your Password</string>
+    <string name="reg_repassword">Re-Enter Password</string>
+    <string name="reg_register">Register</string>
+
+    <string name="main_explore">Explore</string>
+    <string name="main_profile">Profile</string>
+    <string name="main_help">Help</string>
+    <string name="main_guide">Guide</string>
+    <string name="main_request">Request</string>
+    <string name="main_myshop">My Shop</string>
+    <string name="main_category">Category</string>
+
+    <string name="category_appbar">Category</string>
+    <string name="category_product">Products</string>
+    <string name="category_service">Services</string>
+
+    <string name="myshop">Add your own Products and Services</string>
+    <string name="myshop_product">Products</string>
+    <string name="myshop_service">Services</string>
+    <string name="myshop_appbar">My Shop</string>
+
+    <string name="add_product_name">Product Name</string>
+    <string name="add_product_category">Product Category</string>
+    <string name="add_product_organic">Organic Product or Not?</string>
+    <string name="add_product_price">Product Price</string>
+    <string name="add_product_qty">Product Quantity</string>
+    <string name="add_product_available">Product Availability</string>
+    <string name="add_product_remark">Product Remark</string>
+    <string name="add_product_add">Add Product</string>
+    <string name="add_product_appbar">Add Product</string>
+
+    <string name="add_service_appbar">Add Service</string>
+    <string name="add_service_topic">Service Topic</string>
+    <string name="add_service_category">Service Category</string>
+    <string name="add_service_description">Service Description</string>
+    <string name="add_service_price">Service Price</string>
+    <string name="add_service_remark">Service Remark</string>
+    <string name="add_service_add">Add Service</string>
+
+    <string name="request_appbar">Requests</string>
+    <string name="request_request">Requests</string>
+    <string name="request_myrequest">My Requests</string>
+
+    <string name="add_request_topic">Request Topic</string>
+    <string name="add_request_category">Request Category</string>
+    <string name="add_request_description">Request Description</string>
+    <string name="add_request_remark">Request Remark</string>
+    <string name="add_request_add">Add Request</string>
+
+    <string name="my_profile_appbar">My Profile</string>
+    <string name="my_profile_name">Name</string>
+    <string name="my_profile_telephone">Telephone</string>
+    <string name="my_profile_address">Address</string>
+    <string name="my_profile_occupation">Occupation</string>
+    <string name="my_profile_password">Password</string>
+    <string name="my_profile_password_change">Change Password ></string>
+
+</resources>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.MapsFragment">
+
+    <!-- Mps -->
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--Search view -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:elevation="10dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <AutoCompleteTextView
+                    android:id="@+id/auto_search_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="60dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:hint="Search"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/search_btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:padding="8dp"
+                    android:src="@drawable/search" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <!-- view fipper -->
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:translationZ="90dp">
+
+        <ImageView
+            android:id="@+id/map_prev"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/guide_privious" />
+
+        <ImageView
+            android:id="@+id/map_next"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/guide_next" />
+
+        <ViewFlipper
+            android:id="@+id/map_flipper"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/pumpkin"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pumkin" />
+
+                <ImageView
+                    android:id="@+id/mango"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mango" />
+
+                <ImageView
+                    android:id="@+id/egg"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/egg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/tomato"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tomato" />
+
+                <ImageView
+                    android:id="@+id/hire"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hire" />
+
+                <ImageView
+                    android:id="@+id/coconut"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/cocount" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/lemon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lemon" />
+
+                <ImageView
+                    android:id="@+id/banana"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/banana" />
+
+                <ImageView
+                    android:id="@+id/tumeric"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tumeric" />
+            </LinearLayout>
+        </ViewFlipper>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">දිවි සවිය</string>
+    <string name="welcome">வரவேற்பு</string>
+    <string name="selectLanguage">உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்</string>
+
+    <string name="guide1">Using this icon you can view your products and you can add new products. Also you can delete and edit your products.</string>
+    <string name="guide2">Using this icon you can watch some tutorial videos, new techniques and motivating videos that you encourage. Good luck.</string>
+    <string name="guide3">Using this icon you can search category wise what you want. Here have everything you want.</string>
+    <string name="guide_skip">SKIP</string>
+
+    <string name="log_telephone">தொலைபேசி இலக்கம்</string>
+    <string name="log_password">கடவுச்சொல்</string>
+    <string name="log_forgot">கடவுச்சொல்லை மறந்துவிட்டீர்களா?</string>
+    <string name="log_login">புகுபதிகை</string>
+    <string name="log_account">கணக்கு ஒன்று  இல்லையா?</string>
+    <string name="log_signup">பதிவுபெறு</string>
+
+    <string name="forgot_txt">உங்கள் தொலைபேசி எண்ணுக்கு பெறப்பட்ட OTP குறியீட்டை உள்ளிடவும்</string>
+    <string name="forgot_btn">சமர்ப்பிக்கவும்</string>
+    <string name="forgot_appbar">கடவுச்சொல்லை மறந்துவிட்டீர்களா</string>
+
+    <string name="reg_name">பெயர்</string>
+    <string name="reg_name_hint">உங்கள் பெயரை உள்ளிடவும்</string>
+    <string name="reg_telephone">தொலைபேசி</string>
+    <string name="reg_telephone_hint">தொலைபேசி எண்</string>
+    <string name="reg_address">முகவரி</string>
+    <string name="reg_address_hint">உங்கள் முகவரியை உள்ளிடவும்</string>
+    <string name="reg_occupation">தொழில்</string>
+    <string name="reg_occupation_hint">நீங்கள் யார் ?</string>
+    <string name="reg_password">கடவுச்சொல்</string>
+    <string name="reg_password_hint">உங்கள் கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="reg_repassword">உங்கள் கடவுச்சொல்லை மீண்டும் உள்ளிடவும்.</string>
+    <string name="reg_register">பயனர் பதிவு</string>
+
+    <string name="main_explore">தேடல்</string>
+    <string name="main_profile">சுயவிவரம்</string>
+    <string name="main_help">உதவி</string>
+    <string name="main_guide">வழிகாட்டி</string>
+    <string name="main_request">கோரிக்கை</string>
+    <string name="main_myshop">என் கடை</string>
+    <string name="main_category">பிரிவுகள்</string>
+
+    <string name="category_appbar">Category</string>
+    <string name="category_product">Products</string>
+    <string name="category_service">Services</string>
+
+    <string name="myshop">Add your own Products and Services</string>
+    <string name="myshop_product">Products</string>
+    <string name="myshop_service">Services</string>
+    <string name="myshop_appbar">My Shop</string>
+
+    <string name="add_product_name">Product Name</string>
+    <string name="add_product_category">Product Category</string>
+    <string name="add_product_organic">Organic Product or Not?</string>
+    <string name="add_product_price">Product Price</string>
+    <string name="add_product_qty">Product Quantity</string>
+    <string name="add_product_available">Product Availability</string>
+    <string name="add_product_remark">Product Remark</string>
+    <string name="add_product_add">Add Product</string>
+    <string name="add_product_appbar">Add Product</string>
+
+    <string name="add_service_appbar">Add Service</string>
+    <string name="add_service_topic">Service Topic</string>
+    <string name="add_service_category">Service Category</string>
+    <string name="add_service_description">Service Description</string>
+    <string name="add_service_price">Service Price</string>
+    <string name="add_service_remark">Service Remark</string>
+    <string name="add_service_add">Add Service</string>
+
+    <string name="request_appbar">Requests</string>
+    <string name="request_request">Requests</string>
+    <string name="request_myrequest">My Requests</string>
+
+    <string name="add_request_topic">Request Topic</string>
+    <string name="add_request_category">Request Category</string>
+    <string name="add_request_description">Request Description</string>
+    <string name="add_request_remark">Request Remark</string>
+    <string name="add_request_add">Add Request</string>
+
+    <string name="my_profile_appbar">என் சுயவிவரம்</string>
+    <string name="my_profile_name">பெயர்</string>
+    <string name="my_profile_telephone">Telephone</string>
+    <string name="my_profile_address">தொலைபேசி</string>
+    <string name="my_profile_occupation">தொழில்</string>
+    <string name="my_profile_password">கடவுச்சொல்</string>
+    <string name="my_profile_password_change">கடவுச்சொல்லை மாற்று ></string>
+
+</resources>

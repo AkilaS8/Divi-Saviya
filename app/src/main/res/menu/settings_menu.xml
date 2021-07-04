@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/settings_item"
+        android:icon="@drawable/menu_settings"
+        app:showAsAction="ifRoom"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/language_item"
+                android:title="Language"
+                android:icon="@drawable/language"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/logout_item"
+                android:title="Log out"
+                android:icon="@drawable/logout_item"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+</menu>

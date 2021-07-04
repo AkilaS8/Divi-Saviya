@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBack"
+    tools:context=".Activities.AddProduct">
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="1000dp"
+        android:layout_marginRight="-300dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="-10dp"
+        android:src="@drawable/back_circle_1" />
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        android:onClick="imageUpload"
+        android:src="@drawable/no_user_image"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_image">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="25dp"
+            android:padding="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Name"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Category"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <Spinner
+                android:id="@+id/product_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_back"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"
+                android:paddingLeft="25dp"
+                android:paddingBottom="7dp"/>
+            <TextView
+                android:id="@+id/organic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Organic Product or Not"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <Spinner
+                android:id="@+id/product_organic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_back"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"
+                android:paddingLeft="25dp"
+                android:paddingBottom="7dp"/>
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Price"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/product_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Price"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Quantity"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/product_qty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Quantity"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/available"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Availability"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <Spinner
+                android:id="@+id/product_available"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_back"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"
+                android:paddingLeft="25dp"
+                android:paddingBottom="7dp"/>
+            <TextView
+                android:id="@+id/remark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Remark"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/product_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Remark"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/product_add"
+                android:layout_width="265dp"
+                android:layout_height="50dp"
+                android:text="Add Product"
+                android:padding="16dp"
+                android:onClick="productAdd"
+                android:background="@drawable/button_back"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

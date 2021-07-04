@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Guide">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animate1"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:lottie_rawRes="@raw/request_common"
+                app:lottie_autoPlay="true"
+                android:elevation="6dp"
+                app:lottie_loop="true"/>
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animate2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:lottie_rawRes="@raw/guide"
+                app:lottie_autoPlay="true"
+                android:elevation="6dp"
+                app:lottie_loop="true"/>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabView_guide"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorAppbar"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPrimaryDark"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/guide_back" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pageViewer_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabView_guide" />
+</RelativeLayout>

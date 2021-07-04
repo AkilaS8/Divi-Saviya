@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBack"
+    tools:context=".Activities.MyServiceDetails">
+
+
+    <ToggleButton
+        android:id="@+id/service_edit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        android:background="@drawable/profile_toggle_btn"
+        android:layout_marginTop="220dp"
+        android:layout_alignEnd="@+id/service_image"
+        android:layout_marginRight="84dp"
+        android:elevation="3dp"/>
+
+    <Button
+        android:id="@+id/service_delete"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/delete_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:elevation="3dp"/>
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="1000dp"
+        android:layout_marginRight="-300dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="-10dp"
+        android:src="@drawable/back_circle_1"/>
+
+    <ImageView
+        android:id="@+id/service_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/no_user_image"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/service_image">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="25dp"
+            android:padding="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Topic"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/service_topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Service Topic"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Category"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <Spinner
+                android:id="@+id/service_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_back"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"
+                android:paddingLeft="25dp"
+                android:paddingBottom="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Description"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/service_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Service Description"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Price"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/service_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Service Price"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Remarks"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/service_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Service Remarks"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keywords"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/service_keywords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add Keywords"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add five keywords separate using space"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_marginTop="-18dp"
+                android:fontFamily="@font/poppins_light"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

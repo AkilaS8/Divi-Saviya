@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">දිවි සවිය</string>
+    <string name="welcome">ආයුබෝවන්</string>
+    <string name="selectLanguage">ඔබේ භාෂාව තෝරන්න</string>
+
+    <string name="guide1">මෙම මෙනුව හරහා ඔබට ඔබගේ සේවාවක් හෝ භාණ්ඩයක් අලවි කල හැකියි. එමෙන්ම ඔබගේ භාණ්ඩ සියල්ල මෙහිදී සංස්කරණය සිදු කිරීමට, ඉවත් කිරීමට හා නැරඹීමට හැකියි.</string>
+    <string name="guide2">මෙම මෙනුව භාවිතා කිරීමෙන් ඔබට ඔබේම ව්‍යාපරයක් ආරම්භ කිරීමට උපදෙස්, දේශන, අඩු ඉඩක වගා ක්‍රම වැනි බොහෝ තොරතුරු වීඩියෝ මාර්ගයෙන් නැරඹීමට හැකියී.</string>
+    <string name="guide3">මෙම මෙනුව භාවිතා කිරීමෙන් ඔබට මිලදී ගැනීමට අවශ්‍ය සියලුම භාණ්ඩවල වර්ගීකරණයක් දැක ගත හැකියි.</string>
+    <string name="guide_skip">මඟ හරින්න</string>
+
+    <string name="log_telephone">දුරකතන අංකය</string>
+    <string name="log_password">මුරපදය</string>
+    <string name="log_forgot">මුරපදය අමතකද?</string>
+    <string name="log_login">පිවිසෙන්න</string>
+    <string name="log_account">තවමත් ලියාපදිංචි වී නැතිද?</string>
+    <string name="log_signup">ලියාපදිංචි වෙන්න</string>
+
+    <string name="forgot_txt">දුරකතනය අංකයට ලැබුනු OTP කේතය ඇතුළු කරන්න</string>
+    <string name="forgot_btn">ඇතුළු කරන්න</string>
+    <string name="forgot_appbar">මුරපදය අමතකවීම</string>
+
+    <string name="reg_name">නම</string>
+    <string name="reg_name_hint">ඔබගේ නම ඇතුළු කරන්න</string>
+    <string name="reg_telephone">දුරකතන අංකයr</string>
+    <string name="reg_telephone_hint">ඔබගේ දු.ක. ඇතුළු කරන්න</string>
+    <string name="reg_address">ලිපිනය</string>
+    <string name="reg_address_hint">ඔබගේ ලිපිනය. ඇතුළු කරන්න</string>
+    <string name="reg_occupation">‍රැකියාව</string>
+    <string name="reg_occupation_hint">ඔබේ ‍රැකියාව ?</string>
+    <string name="reg_password">මුරපදය</string>
+    <string name="reg_password_hint">මුරපදය ඇතුළු කරන්න</string>
+    <string name="reg_repassword">නැවත මුරපදය ඇතුළු කරන්න</string>
+    <string name="reg_register">ලියාපදිංචි වෙන්න</string>
+
+    <string name="main_explore">සෙවීම</string>
+    <string name="main_profile">මම ගැන</string>
+    <string name="main_help">උදව්</string>
+    <string name="main_guide">උපදෙස්</string>
+    <string name="main_request">ඉල්ලීම්</string>
+    <string name="main_myshop">මගේ කඩේ</string>
+    <string name="main_category">වර්ගයන්</string>
+
+    <string name="category_appbar">වර්ගයන්</string>
+    <string name="category_product">භණ්ඩ</string>
+    <string name="category_service">සේවාවන්</string>
+
+    <string name="myshop">ඔබගේම භාණ්ඩ හා සේවාවන් එකතු කරන්න.</string>
+    <string name="myshop_product">භණ්ඩ</string>
+    <string name="myshop_service">සේවාවන්</string>
+    <string name="myshop_appbar">මගේ කඩේ</string>
+
+    <string name="add_product_name">භාණ්ඩයේ නම</string>
+    <string name="add_product_category">භාණ්ඩයේ වර්ගය</string>
+    <string name="add_product_organic">කාබනික භාණ්ඩයක්ද?</string>
+    <string name="add_product_price">භාණ්ඩයේ මිල</string>
+    <string name="add_product_qty">භාණ්ඩයෙ ප්‍රමාණය</string>
+    <string name="add_product_available">භාණ්ඩයේ තත්වය</string>
+    <string name="add_product_remark">සටහන්</string>
+    <string name="add_product_add">භාණ්ඩය එකතු කරන්න</string>
+    <string name="add_product_appbar">භාණ්ඩය එකතු කරන්න</string>
+
+    <string name="add_service_appbar">සේවාව එකතු කරන්න</string>
+    <string name="add_service_topic">සේවාවේ නම</string>
+    <string name="add_service_category">සේවාවේ වර්ගය</string>
+    <string name="add_service_description">සේවාවේ විස්තරය</string>
+    <string name="add_service_price">සේවාවේ මිල</string>
+    <string name="add_service_remark">සටහන්</string>
+    <string name="add_service_add">සේවාව එකතු කරන්න</string>
+
+    <string name="request_appbar">ඉල්ලීම්</string>
+    <string name="request_request">ඉල්ලීම්</string>
+    <string name="request_myrequest">මගේ ඉල්ලීම්</string>
+
+    <string name="add_request_topic">ඔබට අවශ්‍ය දේ?</string>
+    <string name="add_request_category">අයත් වර්ගය</string>
+    <string name="add_request_description">විස්තරය</string>
+    <string name="add_request_remark">සටහන්</string>
+    <string name="add_request_add">ඉල්ලීම එකතු කරන්න</string>
+
+    <string name="my_profile_appbar">මම ගැන</string>
+    <string name="my_profile_name">නම</string>
+    <string name="my_profile_telephone">දුරකතන අංකය</string>
+    <string name="my_profile_address">ලිපිනය</string>
+    <string name="my_profile_occupation">‍රැකියාව</string>
+    <string name="my_profile_password">මුරපදය</string>
+    <string name="my_profile_password_change">මුරපදය මාරු කරන්න ></string>
+
+</resources>

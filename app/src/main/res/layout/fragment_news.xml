@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorSlider"
+    tools:context=".Fragment.NewsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="පලතුරු බිජ 1000ක් බෙදා දීමේ වැඩසටහනක්"
+                        android:textSize="18sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"/>
+
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="රුක් රෝපණ සතිය මූලික කරගනිමින් අපි වවමු සංකල්පය ඔස්සේ ශ්‍රී ලංකාව තුල වන ගහණය වැඩි කිරීමේ අරමුණින් හා වසවිස නැති පලතුරු භාවිතයට යොමු කරමින් පසුගියදා (12) අති ගරු ජනධිපතිතුමන් හා කෘෂි කර්ම හා අමාත්‍යතුමන් අතින් අනුරාධපුර සාමාන්‍ය පවුල් 250කට බිජ 1000ක් බෙදා දුනි."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="නිෂ්පාදන ආර්ථිකයක් තුළින් සෞභාග්යහමත් ස්වයංපෝෂිත රටක් හදන්න ඉලක්කයට වැඩ කරන්න්"
+                        android:textSize="18sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"/>
+
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="කෘෂිකර්ම අමාත්‍යාංශය හා ඒ යටතේ ඇති රාජ්‍ය අමාත්‍යාංශවලට අයත් ආයතනවල මාසික ප්‍රගති සමාලෝචන රැස්වීම කෘෂිකර්ම අමාත්‍ය මහින්දානන්ද අලුත්ගමගේ මහතාගේ ප්‍රධානත්වයෙන් පැවැත්වුණා.කෘෂිකර්මයට සම්බන්ධ ප්‍රධාන ආයතන 10ක,2021 වර්ෂයේ ක්‍රියාත්මක වැඩපිළිවෙලේ ප්‍රගතිය මෙහිදී සාකච්ඡා කළා."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ඉදිරියේ එන ඕනෑම අභියෝගයකට මුහුණ දෙමින් රටටම කන්න දෙන්න සූදානම්. ඇමති මහින්දානන්ද පොරොන්දු වෙයි."
+                        android:textSize="18sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"/>
+
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="වී අලෙවි මණ්ඩලය හරහා රජයට මහ කන්නයේ වී මෙට්‍රීක්ටොන් ලක්ෂ 3ක් මිලට ගැනීමේ ජාතික වැඩසටහන අද ආරම්භ වුණා.අම්පාර අක්කරෙයිපත්තුව වී අලෙවි මණ්ඩලයේ ගබඩා සංකීර්ණයේදී කෘෂිකර්ම අමාත්‍ය මහින්දානන්ද අලුත්ගමගේ,රාජ්‍ය අමාත්‍ය ශෂීන්ද්‍ර රාජපක්ෂ යන මහත්වරුන්ගේ ප්‍රධානත්වයෙනුයි වැඩපිළිවෙල ආරම්භ කෙරුණේ. සම්බා වියළි වී කිලෝවක් රුපියල් 52 ක් හා නාඩු වියළි වී කිලෝවක් රු.50ක් සහතික මිලට රජය මිලට ගැනීමට මේ යටතේ පියවර ගෙන තිබෙනවා.දිවයින පුරා මහ කන්නයේ හෙක්ටයාරයකට වඩා වගා කොට ඇති,පොහොර සහනාධාරය ලබන සියලු ගොවීන්ගෙන් වී මිලට ගැනීම සැලසුමයි. ඒ අනුව හෙක්ටයාරයකින් වී කිලෝ 1000 ක් වී අලෙවි මණ්ඩලයට ලබාදිය යුතුයි."
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

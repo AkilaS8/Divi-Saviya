@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSlider"
+    tools:context=".Activities.MyRequestDetails">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:lottie_rawRes="@raw/request_common"
+        app:lottie_autoPlay="true"
+        android:elevation="6dp"
+        app:lottie_loop="true"/>
+
+    <ToggleButton
+        android:id="@+id/request_edit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        android:background="@drawable/profile_toggle_btn"
+        android:layout_marginTop="220dp"
+        android:layout_alignEnd="@+id/image"
+        android:layout_marginRight="84dp"
+        android:elevation="3dp"/>
+
+    <Button
+        android:id="@+id/request_delete"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/delete_btn"
+        android:layout_alignEnd="@+id/image"
+        android:layout_marginRight="12dp"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="25dp"
+            android:padding="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Request Topic"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/request_topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Request Topic"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Request Category"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <Spinner
+                android:id="@+id/request_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_back"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"
+                android:paddingLeft="25dp"
+                android:paddingBottom="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Request Description"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/request_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Request Description"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Request Remark"
+                android:textSize="18sp"
+                android:fontFamily="@font/segoe_ui"/>
+            <EditText
+                android:layout_marginTop="-12dp"
+                android:id="@+id/request_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Request Remarks"
+                android:inputType="text"
+                android:background="@drawable/edit_text_back"
+                android:paddingLeft="25dp"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

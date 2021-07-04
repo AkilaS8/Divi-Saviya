@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#164B18</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorProfile">#0CB856</color>
+    <color name="colorProfileBack">#F6F6F6</color>
+    <color name="colorPrimaryBack">#B2FF59</color>
+    <color name="colorPrimaryLightBack">#CCFF90</color>
+    <color name="colorAppbar">#77EF6E</color>
+    <color name="colorSlider">#E4FCC9</color>
+    <color name="colorButtons">#8BC34A</color>
+
+    <color name="duskYellow">#F9D906</color>
+    <color name="lightGrey">#707070</color>
+    <color name="backGrey">#E8E8E8</color>
+
+
+    <color name="guide_back">#E8E3E3</color>
+    <color name="black">#000000</color>
+</resources>
